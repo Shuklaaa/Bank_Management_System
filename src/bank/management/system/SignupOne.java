@@ -76,6 +76,11 @@ public class SignupOne extends JFrame implements ActionListener {
         female.setBackground(Color.WHITE);
         add(female);
         
+        other = new JRadioButton("OTHER");
+        other.setBounds(630, 290, 180, 30);
+        other.setBackground(Color.WHITE);
+        add(other);
+        
         ButtonGroup gendergroup = new ButtonGroup(); //buttongroup so that both the radio buttons don't get selected at ONCE
         gendergroup.add(male);
         gendergroup.add(female);
@@ -104,11 +109,6 @@ public class SignupOne extends JFrame implements ActionListener {
         unmarried.setBounds(450, 390, 100, 30);
         unmarried.setBackground(Color.WHITE);
         add(unmarried);
-        
-        other = new JRadioButton("OTHER");
-        other.setBounds(630, 390, 100, 30);
-        other.setBackground(Color.WHITE);
-        add(other);
         
         ButtonGroup maritalgroup = new ButtonGroup();  
         maritalgroup.add(married);
@@ -179,6 +179,8 @@ public class SignupOne extends JFrame implements ActionListener {
             gender = "Male";
         } else if(female.isSelected()){
             gender = "Female";
+        } else if(other.isSelected()){
+            gender = "Other"; 
         }
         
         String email = emailTextField.getText();
@@ -187,9 +189,7 @@ public class SignupOne extends JFrame implements ActionListener {
             marital = "Married"; 
         } else if(unmarried.isSelected()){
             marital = "Unmarried"; 
-        } else if(other.isSelected()){
-            marital = "Other"; 
-        }
+        } 
         
         String address = addressTextField.getText();
         String city = cityTextField.getText();
