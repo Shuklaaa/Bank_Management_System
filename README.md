@@ -1,4 +1,10 @@
 # Bank-pal
+
+OVERVIEW OF NEW USER SIGNUP
+https://github.com/Shuklaaa/Bank_Management_System/assets/93446673/ed908bc1-abde-4525-a03e-ada5325f4ab7
+
+
+
 Introducing Bank-Pal: Your Virtual Banking Solution. Built using Java AWT and Swing, Bank-Pal offers a seamless ATM experience. Manage transactions, check balances, deposit, withdraw, and change your PIN, all within a user-friendly interface. 
 Check your account balance with a single click, keeping your finances under control at all times. Depositing money is a breeze - just specify the amount, and watch your balance grow. 
 Stay informed about your financial transactions through the mini statement feature, which provides a quick overview of recent activities.
