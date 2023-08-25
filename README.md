@@ -2,7 +2,6 @@
 
 OVERVIEW OF EXISTING USER
 https://github.com/Shuklaaa/Bank_Management_System/assets/93446673/655866ff-6c77-47e8-ab60-914cc5e1e769
-
 OVERVIEW OF NEW USER SIGNUP
 https://github.com/Shuklaaa/Bank_Management_System/assets/93446673/ed908bc1-abde-4525-a03e-ada5325f4ab7
 
